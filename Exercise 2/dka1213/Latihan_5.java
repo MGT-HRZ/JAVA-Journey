@@ -1,7 +1,5 @@
 package dka1213;
 
-// Nama : Megat Harez Iskandar Bin Megat Muhammed Firuz
-// Tarikh : 20/7/2022
 // Tajuk : Output Statements & Variables
 
 import java.util.Scanner;
