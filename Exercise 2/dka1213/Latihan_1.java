@@ -1,7 +1,5 @@
 package dka1213;
 
-// Nama : Megat Harez Iskandar Bin Megat Muhammed Firuz
-// Tarikh : 19/7/2022
 // Tajuk : Operasi dalam JAVA (Tambah, Tolak, Darab, Bahagi & Modulus)
 
 import java.util.Scanner;
