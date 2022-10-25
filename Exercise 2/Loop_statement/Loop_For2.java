@@ -1,7 +1,5 @@
 package Loop_statement;
 
-// Nama : Megat Harez Iskandar Bin Megat Muhammed Firuz
-// Tarikh : 7/8/2022
 // Tajuk : Loop Statement
 
 public class Loop_For2 {
