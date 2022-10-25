@@ -1,7 +1,5 @@
 package dka1213;
 
-// Nama : Megat Harez Iskandar Bin Megat Muhammed Firuz
-// Tarikh : 9/8/2022
 // Tajuk : Latihan Do While
 
 import java.util.Scanner;
