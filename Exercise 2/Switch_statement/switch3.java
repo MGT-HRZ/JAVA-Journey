@@ -1,7 +1,5 @@
 package Switch_statement;
 
-// Nama : Megat Harez Iskandar Bin Megat Muhammed Firuz
-// Tarikh : 3/8/2022
 // Tajuk : Switch case (Char)
 
 import java.util.Scanner;
