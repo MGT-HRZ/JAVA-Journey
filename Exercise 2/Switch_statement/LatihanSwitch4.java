@@ -2,8 +2,8 @@ package Switch_statement;
 
 // Tajuk : Latihan Switch case 4
 
-
 import java.util.Scanner;
+
 public class LatihanSwitch4 {
     public static void main(String[] args)
     {
