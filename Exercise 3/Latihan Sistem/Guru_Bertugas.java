@@ -1,9 +1,5 @@
 package dka1213amalik2;
 
-// Nama : Muhamad Lukman Hakim Bin Mohd Kamarul Hisam
-// No IC : 041020-03-0209
-// Tarikh : 19 September 2022
-// Kursus : DKA 1213 PROGRAMMING I
 // Tajuk : Projek Sistem Paparan Guru Bertugas
 
 import java.util.Scanner; // Panggil fungsi memasukkan input
