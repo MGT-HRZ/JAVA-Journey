@@ -1,7 +1,5 @@
 package Method;
 
-// Nama : Megat Harez Iskandar Bin Megat Muhammed Firuz
-// Tarikh : 28/8/2022
 // Tajuk : Latihan Method
 
 import java.util.Scanner;
