@@ -1,12 +1,5 @@
 package dka1213amalik2;
 
-/*
-    Nama   : Megat Harez Iskandar Bin Megat Muhammed Firuz
-    No. IC : 040912-10-1127
-    Tarikh : 30/8/2022
-    Kursus : DKA1213
-*/
-
 import java.text.DecimalFormat;
 
 public class Bulatan {
