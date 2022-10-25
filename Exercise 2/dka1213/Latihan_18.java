@@ -1,7 +1,5 @@
 package dka1213;
 
-// Nama : Megat Harez Iskandar Bin Megat Muhammed Firuz
-// Tarikh : 15/8/2022
 // Tajuk : Latihan Amali 1
 
 import java.util.Scanner;
