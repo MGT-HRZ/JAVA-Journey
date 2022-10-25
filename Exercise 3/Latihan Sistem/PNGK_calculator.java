@@ -1,10 +1,6 @@
 package dka1213amalik2;
 
 /*
-    Nama    : MEGAT HAREZ ISKANDAR BIN MEGAT MUHAMMMED FIRUZ
-    No. IC  : 040912-10-1127
-    Tarikh  : 19/09/2022
-    Kursus  : DKA1213
     Tajuk   : PROJEK SISTEM KALKULATOR PENGIRAAN PNGK KURSUS
 */
 
