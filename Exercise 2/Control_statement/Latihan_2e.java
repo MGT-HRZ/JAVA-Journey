@@ -1,7 +1,5 @@
 package Control_statement;
 
-// Nama : Megat Harez Iskandar Bin Megat Muhammed Firuz
-// Tarikh : 27/7/2022
 // Tajuk : Control Statement
 
 import java.util.Scanner;
