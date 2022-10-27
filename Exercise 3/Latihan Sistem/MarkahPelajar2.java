@@ -59,7 +59,7 @@ public class MarkahPelajar2 {
             
             // Case 3 : Memaparkan semua data pelajar
                 case 3 : {
-                    print(total, nama, ujian1, ujian2, ujian3);
+                    MaxMin(total, ujian1, ujian2, ujian3);
                     
                     System.out.print("\n");
                     break;
@@ -67,7 +67,7 @@ public class MarkahPelajar2 {
                 
             // Case 4 : Paparan Keluar Program
                 case 4 : {
-                    MaxMin(total, ujian1, ujian2, ujian3);
+                    print(total, nama, ujian1, ujian2, ujian3);
                     
                     System.out.print("\n");
                     break;
@@ -99,7 +99,7 @@ public class MarkahPelajar2 {
             i++;
         }
         
-        while (i < 5);
+        while (i < 10);
         
     }
     
@@ -107,8 +107,8 @@ public class MarkahPelajar2 {
     static void menu() {  
         System.out.println("1. Masukkan Nama Pelajar dan Markah");
         System.out.println("2. Kira Jumlah Markah dan Purata Markah");
-        System.out.println("3. Paparan Markah Mengikut Pentaksiran");
-        System.out.println("4. Paparan Max Min Markah Pelajar");
+        System.out.println("3. Paparan Max Min Markah Pelajar");
+        System.out.println("4. Paparan Markah Mengikut Pentaksiran");
         System.out.println("5. Keluar Program");
     }
     
@@ -180,22 +180,7 @@ public class MarkahPelajar2 {
         return back;
     }
     
-    // Method paparan semua data pelajar
-    static void print(int total, String nama[], double ujian1[], double ujian2[], double ujian3[]) 
-    {
-        System.out.println("\nNama\tUjian 1\t\tPertengahan Tahun\tAkhir Tahun");
-        
-        int r = 0;
-                    
-        do {
-            System.out.println(nama[r] + "\t" + ujian1[r] + "\t\t" + ujian2[r] + "\t\t\t" + ujian3[r]); 
-            
-            r++;
-        }  
-        
-        while (r < total);
-    }
-    
+    // Method Max & Min Markah
     static double MaxMin(int total, double ujian1[], double ujian2[], double ujian3[]) 
     { 
         DecimalFormat DF;
@@ -217,18 +202,62 @@ public class MarkahPelajar2 {
         
         while (r < total);
         
+        
+        System.out.println("\nKeputusan Max Markah");
+        System.out.println("-------------------------");
+        
         if (sum_ujian1 > sum_ujian2 && sum_ujian1 > sum_ujian3){
-            System.out.println("\nMarkah Ujian 1 ialah "+ sum_ujian1 +" lebih tinggi daripada markah Pertengahan Tahun dan Markah Akhir Tahun");
+            System.out.println("Markah Ujian 1 ialah "+ sum_ujian1 +" lebih tinggi daripada markah Pertengahan Tahun dan Markah Akhir Tahun");
         }
         
         else if (sum_ujian2 > sum_ujian1 && sum_ujian2 > sum_ujian3){
-            System.out.println("\nMarkah Pertengahan Tahun ialah "+ sum_ujian2 +" lebih tinggi daripada markah Ujian 1 dan Markah Akhir Tahun");
+            System.out.println("Markah Pertengahan Tahun ialah "+ sum_ujian2 +" lebih tinggi daripada markah Ujian 1 dan Markah Akhir Tahun");
         }
         
         else if (sum_ujian3 > sum_ujian1 && sum_ujian3 > sum_ujian2){
-            System.out.println("\nMarkah Akhir Tahun ialah "+ sum_ujian3 +" lebih tinggi daripada markah Ujian 1 dan Markah Pertengahan Tahun");
+            System.out.println("Markah Akhir Tahun ialah "+ sum_ujian3 +" lebih tinggi daripada markah Ujian 1 dan Markah Pertengahan Tahun");
+        }
+        
+        else {
+            System.out.println("Nilai Max markah adalah setara");
+        }
+        
+        
+        System.out.println("\nKeputusan Min Markah");
+        System.out.println("-------------------------");
+         
+        if (sum_ujian1 < sum_ujian2 && sum_ujian1 < sum_ujian3){
+            System.out.println("Markah Ujian 1 ialah "+ sum_ujian1 +" lebih kurang daripada markah Pertengahan Tahun dan Markah Akhir Tahun");
+        }
+        
+        else if (sum_ujian2 < sum_ujian1 && sum_ujian2 < sum_ujian3){
+            System.out.println("Markah Pertengahan Tahun ialah "+ sum_ujian2 +" lebih kurang daripada markah Ujian 1 dan Markah Akhir Tahun");
+        }
+        
+        else if (sum_ujian3 < sum_ujian1 && sum_ujian3 < sum_ujian2){
+            System.out.println("Markah Akhir Tahun ialah "+ sum_ujian3 +" lebih kurang daripada markah Ujian 1 dan Markah Pertengahan Tahun");
+        }
+        
+        else {
+            System.out.println("Nilai Min markah adalah setara");
         }
         
         return back;
+    }
+    
+    // Method paparan semua data pelajar
+    static void print(int total, String nama[], double ujian1[], double ujian2[], double ujian3[]) 
+    {
+        System.out.println("\nNama\tUjian 1\t\tPertengahan Tahun\tAkhir Tahun");
+        
+        int r = 0;
+                    
+        do {
+            System.out.println(nama[r] + "\t" + ujian1[r] + "\t\t" + ujian2[r] + "\t\t\t" + ujian3[r]); 
+            
+            r++;
+        }  
+        
+        while (r < total);
     }
 }
